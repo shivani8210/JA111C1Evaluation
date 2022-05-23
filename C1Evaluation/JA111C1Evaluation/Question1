@@ -1,0 +1,16 @@
+Question 1:
+
+String are immutable because once we create string we can not change that string and also java used concept of string literal.
+We also used concat() method to add string to previous string. 
+Other reason is string object is catch in pool.
+ 
+String: It is compared to StringBuilder during frequent updates and concatenating. It created using the String class is immutable. It requires more memory to create a new instance if operations performed on a string change its value. An object of String is read-only in nature.
+
+StringBuilder: It is fast as compared to String. Like it is faster than String while concatenating many strings together in a loop. The string created using StringBuilder is mutable. It requires less memory as it updates the existing instance. An object of StringBuilder is dynamic in nature.
+
+The methods of string class is-
+1. int length(): Returns the number of characters in the string.
+2. Char charAt(int i): Returns the character at ith index.
+3. String substring(int i): Return the substring from the ith index character to end.
+4. String substring(inti, intj): Returns the substring from i to j-1 index.
+5. String concat(String str): Concatenates specified string of the first occurrence of the specified string.
